@@ -1,0 +1,22 @@
+{
+  "name": "dev_ssp_jokestask",
+  "version": "1.0.0",
+  "description": "jokes task ssp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iRageBridge/dev_SSP_jokesTask.git"
+  },
+  "author": "Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iRageBridge/dev_SSP_jokesTask/issues"
+  },
+  "homepage": "https://github.com/iRageBridge/dev_SSP_jokesTask#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
