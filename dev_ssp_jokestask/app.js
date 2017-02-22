@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 var expressSession={
   cookie:{
-    maxAge: 30000
+    maxAge: 3000
   },
   secret:'aSecret',
   resave: false,
