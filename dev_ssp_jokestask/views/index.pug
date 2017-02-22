@@ -1,5 +1,21 @@
-extends layout
+doctype html
+html
+  head
+    title title
+  body
+    h1= title
 
-block content
-  h1= title
-  p Welcome to #{title}
+    ul#jokes
+    li
+      p= jokeEntry
+
+    form(name="input" method="post" action="/" id="form")
+      div.input
+        span.label Enter Joke:
+        br 
+        br
+        input(type="text", name="joke", id="joke")
+        br
+        br
+      div.actions
+        input(type="submit", value="Enter")
