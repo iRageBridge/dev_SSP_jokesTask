@@ -1,13 +1,12 @@
 doctype html
 html
   head
-    title title
+    title= title
   body
     h1= title
-
-    ul#jokes
-    li
-      p= jokeEntry
+    ul
+      each val in jokesArray
+        li= val
 
     form(name="input" method="post" action="/" id="form")
       div.input
